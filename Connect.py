@@ -3,6 +3,7 @@ import datetime
 from datetime import date
 import pandas as pd
 import matplotlib.pyplot as plt
+import getpass
 
 if __name__ == "__main__":
 
