@@ -8,11 +8,8 @@ TEST_DATE = datetime.date(2025, 8, 12)
 
 if __name__ == "__main__":
 
-    #username = input("Enter email address: ")
-    #password = getpass("Enter password: ")
-
-    username = "EJTriem@outlook.com"
-    password = "Ou812@atm8023"
+    username = input("Enter email address: ")
+    password = getpass("Enter password: ")
 
     api = Garmin(username, password)
     api.login()
